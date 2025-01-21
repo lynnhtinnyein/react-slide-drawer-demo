@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { SlideDrawer } from "react-slide-drawer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const [showDrawer, setShowDrawer] = useState(false);
+
+    const handleClose = () => {
+        setShowDrawer(false);
+    };
+
+    return (
+        <div>
+            <button onClick={() => setShowDrawer(prev => !prev)}>Open Drawer</button>
+
+            <SlideDrawer
+                show={showDrawer}
+                onClose={handleClose}
+                width={250}
+                position="left"
+                type="front"
+                animated={true}
+            >
+                <div
+                    style={{
+                        display: "flex",
+                        flexGrow: 1,
+                        alignItems: "center",
+                        justifyContent: "center",
+                        backgroundColor: 'red'
+                    }}
+                >
+                    This is the content inside the drawer!
+                </div>
+            </SlideDrawer>
+        </div>
+    );
+};
 
 export default App;
