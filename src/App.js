@@ -60,8 +60,16 @@ const DrawerDemo = () => {
             </SlideDrawer>
 
             <div className="flex-1 bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="flex justify-center">
+                <div className="flex flex-col items-center justify-center space-y-3">
                     <h1 className="text-3xl font-bold">React Slide Drawer</h1>
+                    <a 
+                        href="https://www.npmjs.com/package/react-slide-drawer"
+                        className="font-mono text-blue-500 underline"
+                        target="_blank" 
+                        rel="noreferrer"
+                    >
+                        https://www.npmjs.com/package/react-slide-drawer
+                    </a>
                 </div>
 
                 <div className="border-b p-4">
