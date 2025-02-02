@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-slide-drawer/static/css/main.fe5dd133.css",
-    "main.js": "/react-slide-drawer/static/js/main.5b6dc22c.js",
-    "static/js/453.9457c4ba.chunk.js": "/react-slide-drawer/static/js/453.9457c4ba.chunk.js",
-    "index.html": "/react-slide-drawer/index.html",
-    "main.fe5dd133.css.map": "/react-slide-drawer/static/css/main.fe5dd133.css.map",
-    "main.5b6dc22c.js.map": "/react-slide-drawer/static/js/main.5b6dc22c.js.map",
-    "453.9457c4ba.chunk.js.map": "/react-slide-drawer/static/js/453.9457c4ba.chunk.js.map"
+    "main.css": "/react-slide-drawer-demo/static/css/main.fe5dd133.css",
+    "main.js": "/react-slide-drawer-demo/static/js/main.3dcf043b.js",
+    "static/js/453.9457c4ba.chunk.js": "/react-slide-drawer-demo/static/js/453.9457c4ba.chunk.js",
+    "index.html": "/react-slide-drawer-demo/index.html",
+    "main.fe5dd133.css.map": "/react-slide-drawer-demo/static/css/main.fe5dd133.css.map",
+    "main.3dcf043b.js.map": "/react-slide-drawer-demo/static/js/main.3dcf043b.js.map",
+    "453.9457c4ba.chunk.js.map": "/react-slide-drawer-demo/static/js/453.9457c4ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe5dd133.css",
-    "static/js/main.5b6dc22c.js"
+    "static/js/main.3dcf043b.js"
   ]
 }
