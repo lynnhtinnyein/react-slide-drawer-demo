@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-slide-drawer/static/css/main.1917a383.css",
+    "main.js": "/react-slide-drawer/static/js/main.93ae865b.js",
+    "static/js/453.9457c4ba.chunk.js": "/react-slide-drawer/static/js/453.9457c4ba.chunk.js",
+    "index.html": "/react-slide-drawer/index.html",
+    "main.1917a383.css.map": "/react-slide-drawer/static/css/main.1917a383.css.map",
+    "main.93ae865b.js.map": "/react-slide-drawer/static/js/main.93ae865b.js.map",
+    "453.9457c4ba.chunk.js.map": "/react-slide-drawer/static/js/453.9457c4ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1917a383.css",
+    "static/js/main.93ae865b.js"
+  ]
+}
